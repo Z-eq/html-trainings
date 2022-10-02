@@ -1,0 +1,92 @@
+body {
+   
+    background-color: rgb(107, 107, 112);
+
+    background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+body{ 
+    font-size: medium;
+    color: rgb(195, 195, 207);
+    
+}
+
+/** mark which h-size to format *******/
+
+h1,h3 {
+
+  
+font-size: small;
+color: rgb(56, 56, 190);
+}
+
+h2,h4 {
+
+font-size: x-large;
+color: rgb(34, 204, 125);
+}body {
+   
+    background-color: rgb(107, 107, 112);
+
+    background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+body{ 
+    font-size: medium;
+    color: rgb(195, 195, 207);
+    
+}
+
+/** mark which h-size to format *******/
+
+h1,h3 {
+
+  
+font-size: small;
+color: rgb(56, 56, 190);
+}
+
+h2,h4 {
+
+font-size: x-large;
+color: rgb(34, 204, 125);
+}
+
+
+/* decide which elements to change */
+p{
+  font-size: smaller;
+  color: rgb(247, 240, 240);
+  
+}
+
+#mainTitle {
+  font-size: 33px;
+ text-align: center;
+}
+p{
+  font-size: smaller;
+  color: rgb(247, 240, 240);
+  
+}
+
+#mainTitle {
+  font-size: 33px;
+ text-align: center;
+}
+
+#sport {
+    
+    font-size: 23px;
+   text-align: center;
+  }
