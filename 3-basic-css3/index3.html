@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Css Basics</title>
+
+    <link rel="stylesheet" href="style.css">
 
 
+<!-- <style>
 
-
-<style>
-
-    /*<!--body {} is a tag selector*******/
+    /*<!--body {} is a tag selector where we can change all by giving a tag and add changes we want*
+      
+      OUTCOMMENTED TO USE style.css instead!******/
 
 body {
    
-    background-color: rgb(26, 26, 27);
+    background-color: rgb(107, 107, 112);
+
+    background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
     font-family: 'Times New Roman', Times, serif;
    
@@ -41,14 +48,28 @@ font-size: x-large;
 color: rgb(34, 204, 125);
 }
 
-</style>
+
+/* decide which elements to change */
+p{
+  font-size: smaller;
+  color: rgb(247, 240, 240);
+  
+}
+
+#mainTitle {
+  font-size: 33px;
+ text-align: center;
+}
+
+</style> -->
 
 
 </head>
 <body>
   
+  <!-- Create id for h3 part!-->
 
-    <h1 id = "mainTitle"> Loren Ipsun</h1>
+    <h3 id = "mainTitle"> Loren Ipsun</h3>
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dignissimos quibusdam, 
         eaque asperiores explicabo iste recusandae illum atque veniam voluptate molestiae laudantium, neque pariatur.
@@ -56,12 +77,14 @@ color: rgb(34, 204, 125);
 
          <h2>Lorem </h2>
 
-       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloremque quod eligendi sunt officia porro a,
+
+
+       <p id="sport"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloremque quod eligendi sunt officia porro a,
          qui voluptates reprehenderit saepe labore repudiandae sequi fugit temporibus perspiciatis laboriosam explicabo quaerat voluptate?
        </p>
 
 
-       <h3>Lorem </h3>
+       <h2>Lorem </h2>
 
        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam doloremque quod eligendi sunt officia porro a,
          qui voluptates reprehenderit saepe labore repudiandae sequi fugit temporibus perspiciatis laboriosam explicabo quaerat voluptate?
